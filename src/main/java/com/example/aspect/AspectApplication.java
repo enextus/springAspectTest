@@ -1,5 +1,6 @@
 package com.example.aspect;
 
+import com.example.aspect.service.MathService;
 import com.example.aspect.service.SimpleService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,9 +21,16 @@ public class AspectApplication {
 
     public static void main(String[] args) {
         clearLog();
+
         ConfigurableApplicationContext context = SpringApplication.run(AspectApplication.class, args);
+
         SimpleService service = context.getBean(SimpleService.class);
         service.performAction("My message!", 10);  // При вызове этого метода также сработают методы аспекта.
+
+        MathService mathService = context.getBean(MathService.class);
+        mathService.computeDifference(1000, 45);
+        mathService.computeSum(888, 42);
+
     }
 
     private static void clearLog() {

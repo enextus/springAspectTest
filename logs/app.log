@@ -1,17 +1,25 @@
-2023-07-27T12:06:20.492+02:00  INFO 2316 --- [restartedMain] com.example.aspect.AspectApplication     : Starting AspectApplication using Java 20 with PID 2316 (C:\Projects\Aspect\Aspect\target\classes started by Administrator in C:\Projects\Aspect\Aspect)
-2023-07-27T12:06:20.495+02:00 DEBUG 2316 --- [restartedMain] com.example.aspect.AspectApplication     : Running with Spring Boot v3.1.2, Spring v6.0.11
-2023-07-27T12:06:20.496+02:00  INFO 2316 --- [restartedMain] com.example.aspect.AspectApplication     : No active profile set, falling back to 1 default profile: "default"
-2023-07-27T12:06:20.577+02:00  INFO 2316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-07-27T12:06:20.578+02:00  INFO 2316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-07-27T12:06:21.942+02:00  INFO 2316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-07-27T12:06:21.955+02:00  INFO 2316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-07-27T12:06:21.955+02:00  INFO 2316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
-2023-07-27T12:06:22.022+02:00  INFO 2316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-07-27T12:06:22.022+02:00  INFO 2316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1443 ms
-2023-07-27T12:06:22.705+02:00  INFO 2316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-07-27T12:06:22.741+02:00  INFO 2316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-07-27T12:06:22.750+02:00  INFO 2316 --- [restartedMain] com.example.aspect.AspectApplication     : Started AspectApplication in 2.886 seconds (process running for 3.836)
-2023-07-27T12:06:22.757+02:00  INFO 2316 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод performAction вызван!
-2023-07-27T12:06:22.758+02:00 DEBUG 2316 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 1: My message!
-2023-07-27T12:06:22.759+02:00 DEBUG 2316 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 2: 10
-2023-07-27T12:06:22.760+02:00  INFO 2316 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод performAction завершен!
+2023-07-27T12:17:39.313+02:00  INFO 3580 --- [restartedMain] com.example.aspect.AspectApplication     : Starting AspectApplication using Java 20 with PID 3580 (C:\Projects\Aspect\Aspect\target\classes started by Administrator in C:\Projects\Aspect\Aspect)
+2023-07-27T12:17:39.314+02:00 DEBUG 3580 --- [restartedMain] com.example.aspect.AspectApplication     : Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-07-27T12:17:39.315+02:00  INFO 3580 --- [restartedMain] com.example.aspect.AspectApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-07-27T12:17:39.396+02:00  INFO 3580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-27T12:17:39.396+02:00  INFO 3580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-27T12:17:40.803+02:00  INFO 3580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-27T12:17:40.813+02:00  INFO 3580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-27T12:17:40.814+02:00  INFO 3580 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-27T12:17:40.874+02:00  INFO 3580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-27T12:17:40.874+02:00  INFO 3580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1477 ms
+2023-07-27T12:17:41.547+02:00  INFO 3580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-27T12:17:41.599+02:00  INFO 3580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-27T12:17:41.619+02:00  INFO 3580 --- [restartedMain] com.example.aspect.AspectApplication     : Started AspectApplication in 2.913 seconds (process running for 3.853)
+2023-07-27T12:17:41.636+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод performAction вызван!
+2023-07-27T12:17:41.648+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 1: My message!
+2023-07-27T12:17:41.649+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 2: 10
+2023-07-27T12:17:41.654+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод performAction завершен!
+2023-07-27T12:17:41.656+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод computeDifference вызван!
+2023-07-27T12:17:41.657+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 1: 1000
+2023-07-27T12:17:41.657+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 2: 45
+2023-07-27T12:17:41.660+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод computeDifference завершен!
+2023-07-27T12:17:41.661+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод computeSum вызван!
+2023-07-27T12:17:41.662+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 1: 888
+2023-07-27T12:17:41.663+02:00 DEBUG 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Аргумент 2: 42
+2023-07-27T12:17:41.664+02:00  INFO 3580 --- [restartedMain] c.example.aspect.aspect.LoggingAspect    : Метод computeSum завершен!
