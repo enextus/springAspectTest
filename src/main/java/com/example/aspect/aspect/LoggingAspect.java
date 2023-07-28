@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
     private static final Logger logger = LoggerFactory.getLogger(LoggingAspect.class);
 
-    @Before("execution(* com.example.aspect.service.*.*(..))")
+    @Before("execution(* com.example.aspect.service.*.*(..))") // Таким образом, весь pointcut execution(* com.example.aspect.service.*.*(..)) означает: "Любой метод в любом классе пакета com.example.aspect.service, независимо от его возвращаемого типа и аргументов".
     public void beforeMethod(JoinPoint joinPoint) {
         logger.info("Метод " + joinPoint.getSignature().getName() + " вызван!");
         System.out.println("Метод " + joinPoint.getSignature().getName() + " вызван!");
